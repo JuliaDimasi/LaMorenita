@@ -1,1 +1,12 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+    font-family: "Salom-Regular";
+    src: local("Salom-Regular"), url(./assets/fonts/salom/Salom-Regular.ttf) format("truetype");
+    
+}
+
+@font-face {
+    font-family: "Showcase-Sans-Mini";
+    src: local("Showcase-Sans-Mini"), url(./assets/fonts/showcase/ShowcaseSansMini.otf) format("truetype");
+}
