@@ -1,12 +1,9 @@
 .banner{
     background-color: #8bdb66;
-    width: 100vw;
+    width: 100%;
     padding: 2vh;
-    height: 30vh;
+    height: 20%;
     box-shadow:10px 10px 50px #477e2e;
-    /*position: -webkit-sticky;
-    position: sticky;
-    top: 0;*/
     img{
         width: 13.5vw;
         border-radius: 150vw;  
@@ -40,8 +37,7 @@
                 a{
                     svg{
                         color:rgb(255, 251, 251);
-                        width: 4vw;
-                        
+                        width: 3.5vw;
                         
                     }
                 }
@@ -53,3 +49,43 @@
     
 
 }
+
+//animacion titulo la morenita
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 2.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 2.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
