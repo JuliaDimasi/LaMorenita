@@ -1,18 +1,55 @@
 .banner{
-    background-color:#f8f8f8;
+    background-color: #8bdb66;
     width: 100vw;
     padding: 2vh;
+    height: 30vh;
+    box-shadow:10px 10px 50px #477e2e;
+    /*position: -webkit-sticky;
+    position: sticky;
+    top: 0;*/
     img{
-        width: 20vw;   
+        width: 13.5vw;
+        border-radius: 150vw;  
     }
-    h1{
-        font-family: "Salom-Regular";
-        color:#112629;
+    .brand{
+        padding: 2vw;
+        h1{
+            font-family: "Salom-Regular";
+            color:#f5f4f4;
+            display: flex;
+            justify-content: center;
+            font-size: 4.5vw;
+        }
+        h3{
+            font-family: "Showcase-Sans-Mini";
+            color:#f5f4f4;
+            display: flex;
+            justify-content: center;
+            font-size: 3.5vw;
+        }
     }
-    h3{
-        font-family: "Showcase-Sans-Mini";
+    .redes-sociales{
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 3.5vw;
+            li{
+                text-decoration: none !important;
+                margin-right: 35px;
+                a{
+                    svg{
+                        color:rgb(255, 251, 251);
+                        width: 4vw;
+                        
+                        
+                    }
+                }
+               
+            }
+        }
         
-        color:#112629;
     }
+    
 
 }
